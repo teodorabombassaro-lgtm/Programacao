@@ -4,7 +4,7 @@
 #e que a rodela de hambúrguer pesa 100 gramas, 
 #faça um algoritmo em que o dono forneça a quantidade de sanduíches a fazer, 
 #e a máquina informe as quantidades (em quilos) de queijo, presunto e carne necessários para compra.
-quantidade = float (input("Qual a quantidade de sanduíches que deseja fazer?"))
+quantidade = int (input("Qual a quantidade de sanduíches que deseja fazer?"))
 queijo = ((2 * 50) * quantidade) / 1000
 presunto = (50 * quantidade) / 1000
 carne = (100 * quantidade) / 1000
