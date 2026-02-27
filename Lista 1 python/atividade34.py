@@ -2,3 +2,4 @@
 #Sabe-se que: A = lado * lado;
 lado = float (input("Digite a medida de um dos lados do quadrado:"))
 area = lado * lado
+print("A área o quadrado é de:",area)
