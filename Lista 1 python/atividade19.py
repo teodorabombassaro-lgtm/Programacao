@@ -5,6 +5,6 @@
 #faça um algoritmo para calcular o gasto total da granja para marcar todos os seus frangos.
 quantidade_frangos = float (input("Digite a quantidade de frangos da granja:"))
 anel_identificacao = quantidade_frangos * 4.00
-anel_alimentacao = quantidade_frangos * ( 2* 3.50)
+anel_alimentacao = quantidade_frangos * ( 2 * 3.50)
 total = anel_alimentacao + anel_identificacao
 print ("O gasto total da granja para marcar todos os seus frangos é de:", total)
