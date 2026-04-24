@@ -2,4 +2,4 @@
 cateto1 = float (input("Insira a medida do primeiro cateto:"))
 cateto2 = float (input("Insira a medida do segundo cateto:"))
 soma = (cateto1**2) + (cateto2**2) **0.5
-print (f"A medida da hipotenusa é igual a {soma} cm")
+print (f"O valor da hipotenusa é igual a {soma:.2f}")

@@ -3,4 +3,4 @@
 diagonal_maior = float (input("Digite a medida da maior diagonal do losango:"))
 diagonal_menor = float (input("Digite a medida da menor diagonal do losango:"))
 area= (diagonal_maior * diagonal_menor) / 2
-print ("A área do losango é de:")
+print ("A área do losango é de:",area)
